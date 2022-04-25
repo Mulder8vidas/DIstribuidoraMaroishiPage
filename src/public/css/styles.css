@@ -1704,9 +1704,9 @@ a:hover.back-to-top {
 	  color: #0c4a97;
   }
 .imdis{
-	width: 65%;
-	margin-top: 50px;
-	margin-left: 50px;
+	width: 90%;
+	margin-top:50px;
+
 }
 .row	{
 	padding-left: 50px;
@@ -1743,21 +1743,46 @@ a:hover.back-to-top {
 	display: grid;
 	grid-template-rows: repeat(3, 1fr);
 	grid-template-columns: repeat(3, 1fr);
-	gap: 5px;
+
 	margin-left: 25%;
 }
 .marcas{
 	text-align: center;
 	margin-top: 8rem;
-
+	width: 100%;
+	height: auto;
 }
 .mar{
 	margin-bottom: 2rem;
 	color: #0c4a97;
 	text-decoration: underline double;
+	width: 100%;height: auto;
 }
 .layout img{
-	width: 150px;
+	width: 100%;
 	border:double  2px rgba(0, 0, 0, 0.3);
+	height: auto;
+
+}
+@media screen and (max-width: 990px) {
+	.historia1{
+		display: inline;
+		width: 100%;
+		text-align: center;
+	}
+	.historia1 img{
+		width: 95%;
+	}
+	.row{
+		width: 100%;
+	}
+	.historia2{
+		display: inline;
+		width: 100%;
+		text-align: center;
+	}
+	.historia2 img{
+		width: 95%;
+	}
 
 }
